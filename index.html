@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Shop</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/css/boxicons.min.css"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo" />
+        </div>
+      
+        <!-- Hamburger toggle -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+      
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#customers">Customers</a></li>
+          <li><a href="#about">About Us</a></li>
+        </ul>
+      
+        <div class="icons">
+          <i class="bx bx-cart"></i>
+          <i class="bx bx-search-alt-2"></i>
+        </div>
+      </nav>
+      
+
+    <main id="home">
+      <div class="left-section">
+        <h1>Start your day with coffee</h1>
+        <p>Premium beans roasted to perfection. Fresh, bold, and flavorful every time.</p>
+        <a href="#products" class="btn">Shop Now</a>
+      </div>
+      <div class="right-section">
+        <img src="images/main.png" alt="Coffee Main" />
+      </div>
+    </main>
+  </header>
+
+  <!-- Products Section -->
+  <section id="products" class="info-section products-section">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/product1.jpg" alt="Espresso">
+        <h3>Espresso</h3>
+        <p>Strong and bold, perfect for an energy boost.</p>
+      </div>
+      <div class="product-card">
+        <img src="images/product2.jpg" alt="Latte">
+        <h3>Latte</h3>
+        <p>Milk and espresso in harmony. Smooth and rich.</p>
+      </div>
+      <div class="product-card">
+        <img src="images/product3.jpg" alt="Cold Brew">
+        <h3>Cold Brew</h3>
+        <p>Chilled and smooth with a natural sweetness.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Spacer -->
+  <div class="spacer"></div>
+
+  <!-- Customer Reviews -->
+  <section id="customers" class="info-section customers-section">
+    <h2>Our Customers</h2>
+    <div class="reviews">
+      <div class="review">
+        <p>"Absolutely love their cold brew. So refreshing!"</p>
+        <span>- Ayesha K.</span>
+      </div>
+      <div class="review">
+        <p>"Best latte in town! Friendly staff too."</p>
+        <span>- Ahmed R.</span>
+      </div>
+      <div class="review">
+        <p>"Espresso shot was on point. Great ambiance."</p>
+        <span>- Sana L.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Spacer -->
+  <div class="spacer"></div>
+
+  <!-- About Us Section -->
+  <section id="about" class="info-section about-section">
+    <h2>About Us</h2>
+    <div class="about-content">
+      <img src="images/about.jpg" alt="About Image">
+      <div>
+        <p>
+          At Coffee Shop, we believe that every cup tells a story. Our mission is to offer a space where quality, community, and craftsmanship blend together. We use ethically sourced beans and expert roasting techniques to ensure every brew is unforgettable.
+        </p>
+        <p>
+          More than just a café, we are a daily ritual for many — whether it's the morning espresso or an afternoon break with friends. We take pride in serving smiles, one cup at a time.
+        </p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
